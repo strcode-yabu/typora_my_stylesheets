@@ -1,0 +1,18 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+
+:root {
+  --general:  Cica, monospace;
+  --monospace: "Fira Code", Cica, monospace;
+}
+
+body {
+  font-family: var(--general);
+}
+
+code,
+kbd,
+pre,
+samp,
+var {
+  font-family: var(--monospace);
+}
