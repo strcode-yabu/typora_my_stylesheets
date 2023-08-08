@@ -1,0 +1,14 @@
+{
+  "name": "typora_my_stylesheets",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/strcode-yabu/typora_my_stylesheets.git",
+  "author": "S.Yabunaka[strCode] <yabunaka@strcode.biz>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-ttf2woff2": "^4.0.1",
+    "sass": "^1.64.1"
+  }
+}

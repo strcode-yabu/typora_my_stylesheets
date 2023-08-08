@@ -1,20 +1,22 @@
-# typora用Stylesheet
+# typora用strCodeテーマ
 
-## オフィシャルサイト
+## Typora オフィシャルサイト
 
-[Typora official site.](https://typora.io/)
+[https://typora.io/](https://typora.io/)
 
-## インストール必須
+## フォント借用元
 
-- Typora本体
-- [Cicaフォント](https://github.com/miiton/Cica)
+### JetBrains Mono: A free and open source typeface for developers
 
-## 作成ファイル
+[https://www.jetbrains.com/ja-jp/lp/mono/](https://www.jetbrains.com/ja-jp/lp/mono/)
 
-`~/.config/Typora/themes/base.user.css`
+> JetBrains <>  
+> Philipp Nurullin <[philipp.nurullin@jetbrains.com](philipp.nurullin@jetbrains.com)>  
+> Konstantin Bulenkov <[kb@jetbrains.com](kb@jetbrains.com)>  
 
-## コードコピー
+### プログラミングフォント 白源 (はくげん／HackGen)
 
-[base.user.css](https://github.com/strcode-yabu/typora_my_stylesheets/blob/main/base.user.css)
+[https://github.com/yuru7/HackGen#readme](https://github.com/yuru7/HackGen#readme)
 
-## Typora再起動
+> HackGen
+> tawara <[https://github.com/yuru7](https://github.com/yuru7)>  

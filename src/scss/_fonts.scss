@@ -1,0 +1,57 @@
+/**
+ * JetBrains Mono
+ */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: url('./fonts/JetBrainsMono-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: url('./fonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
+}
+/**
+ * HackGen
+ */
+ @font-face {
+  font-family: 'HackGen';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/HackGen-Reqular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HackGen';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/HackGen-Bold.woff2') format('woff2');
+}
+/**
+ * HackGen NF
+ */
+ @font-face {
+  font-family: 'HackGen Console NF';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/HackGenConsoleNF-Reqular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'HackGen Console NF';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/HackGenConsoleNF-Bold.woff2') format('woff2');
+}
