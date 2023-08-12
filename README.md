@@ -20,3 +20,7 @@
 
 > HackGen
 > tawara <[https://github.com/yuru7](https://github.com/yuru7)>  
+
+### Nerd Fonts
+
+[https://www.nerdfonts.com](https://www.nerdfonts.com)
