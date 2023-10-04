@@ -1,5 +1,7 @@
+@use './functions' as func;
+
 ::-webkit-scrollbar-thumb {
-  @include print() {
+  @include func.print() {
     background-color: transparent !important;
   }
 }
