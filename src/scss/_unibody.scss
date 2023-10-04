@@ -1,0 +1,31 @@
+.megamenu-menu-header {
+  color: var(--color-text);
+  border: none;
+  #megamenu-back-btn,
+  .megamenu-menu-header-title-back,
+  .megamenu-menu-header-title-menu {
+    color: var(--color-text);
+  }
+}
+.megamenu-menu {
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  box-shadow: none !important;
+}
+
+header,
+#megamenu-content {
+  background-color: var(--color-bg);
+  background-image: none !important;
+}
+.md-search-hit {
+  background-color: var(--color-search-hit-bg);
+}
+#recent-file-panel {
+  tbody {
+    tr:nth-child(2n-1) {
+      color: var(--color-recent-file-panel-n);
+      background-color: var(--color-recent-file-panel-n-bg);
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.md-fences {
+  &::before {
+    content: ' ';
+    width: 100%;
+    display: block;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: #282c34;
+    margin-bottom: -7px;
+    border-radius: 5px;
+    background-position: 10px 10px;
+  }
+  .cm-s-inner.CodeMirror {
+    margin: 1.5rem 0;
+  }
+}
+
+.CodeMirror-wrap {
+  .CodeMirror-scroll {
+    overflow-x: auto;
+  }
+}
+.CodeMirror-gutters {
+  white-space: nowrap;
+  background: inherit;
+  border-right: 1px solid #a2b6d452;
+}
+.CodeMirror-linenumber {
+  color: var(--color-primary);
+  text-align: right;
+  padding: 0 3px 0 5px;
+}
+pre.CodeMirror-line {
+  padding: 0 1.2rem;
+}
+.cm-s-inner {
+  &.CodeMirror {
+    color: #4f5467;
+    line-height: 1.6rem;
+    background-color: var(--color-block-bg);
+    border-radius: 10px;
+    padding: 1.2rem .8rem;
+  }
+  .cm-keyword {
+    color: #1694b6 !important;
+  }
+  .cm-operator {
+    color: #2f86d2 !important;
+  }
+  .cm-variable,
+  .cm-builtin,
+  .cm-header,
+  .cm-tag,
+  .cm-property,
+  .cm-quote {
+    color: #b9218e !important;
+  }
+  .cm-variable-2 {
+    color: #7aadad !important;
+  }
+  .cm-variable-3,
+  .cm-type,
+  .cm-atom {
+    color: #378ed8 !important;
+  }
+  .cm-number {
+    color: #1a5494 !important;
+  }
+  .cm-def,
+  .cm-qualifier {
+    color: #0744ac !important;
+  }
+  .cm-string {
+    color: #6f42c2 !important;
+  }
+  .cm-string-2 {
+    color: #27638f !important;
+  }
+  .cm-comment {
+    color: #9a9a9a !important;
+  }
+  .cm-meta {
+    color: #0b93be !important;
+  }
+  .cm-attribute {
+    color: #8f6aa8 !important;
+  }
+  .cm-error {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: #b9218e40 !important;
+  }
+  .CodeMirror-matchingbracket {
+    color: white !important;
+    text-decoration: underline;
+  }
+  div.CodeMirror-selected {
+    background: rgba(167, 178, 189, 0.2) !important;
+  }
+  &.CodeMirror-focused {
+    div.CodeMirror-selected {
+      background: rgba(167, 178, 189, 0.2) !important;
+    }
+  }
+  .CodeMirror-selected,
+  .CodeMirror-selectedtext {
+    background-color: rgba(167, 178, 189, 0.0) !important;
+  }
+  .CodeMirror-line,
+  .CodeMirror-line>span,
+  .CodeMirror-line>span>span {
+    &::-moz-selection,
+    &::selection {
+      background-color: rgba(167, 178, 189, 0.2);
+    }
+  }
+}
+.CodeMirror {
+  div.CodeMirror-cursor {
+    border-left: 1px solid var(--color-primary);
+    z-index: 3;
+  }
+}
+.md-rawblock {
+  .md-rawblock-tooltip {
+    inset: auto 0.3rem auto auto;
+    transform: translateY(-120%);
+  }
+}

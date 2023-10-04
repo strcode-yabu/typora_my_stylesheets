@@ -1,0 +1,13 @@
+pre {
+  &.md-meta-block {
+    color: var(--color-primary);
+    background: #f6f8fa;
+    margin: -37px 0rem 3.8rem;
+    padding: 1.5rem;
+    filter: drop-shadow(var(--color-img-shadow) 0px 3px 3px);
+  }
+  
+  &.md-fences-advanced.md-focus .md-fences-adv-panel {
+    border-radius: .8rem;
+  }
+}
