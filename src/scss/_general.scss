@@ -1,0 +1,26 @@
+:root {
+  --font-general:  'HackGen Console NF', sans-serif;
+  --font-monospace: 'Jet Brains MONO', 'HackGen Console NF', monospace;
+}
+
+*:not(
+  code,
+  code *,
+  pre,
+  pre *,
+  kbd,
+  samp,
+  var
+) {
+  font-family: var(--font-general) !important;
+}
+
+code,
+code *,
+pre,
+pre *,
+kbd,
+samp,
+var {
+  font-family: var(--font-monospace) !important;
+}
