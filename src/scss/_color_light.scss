@@ -1,0 +1,25 @@
+@use './functions' as func;
+
+:root {
+  --color-text: #40464f;
+  --color-primary: #4870ac;
+  --color-bg: #ffffff;
+  --color-side-bar-bg: var(--color-bg);
+
+  --color-marker: #a2b6d4;
+  --color-highlight: #ffffb5c2;
+  --color-header-span: var(--color-primary);
+  --color-block-bg: #f6f8fa;
+  --color-img-shadow: #d2dff4;
+
+  --color-search-hit-bg: var(--color-select-text-bg);
+  --color-search-select-bg: #5bb3ff;
+  --color-control-text-hover: #a2b6d4;
+  --color-rawblock-edit-panel-bd: var(--color-block-bg);
+  --color-item-hover-bg: rgb(246 248 250);
+  --color-active-file-bg: var(--color-block-bg);
+
+  @include func.print() {
+    --color-text: rgb(0, 0, 0);
+  }
+}
