@@ -2,11 +2,11 @@ const {src, dest, watch} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const ttf2woff2 = require('gulp-ttf2woff2');
 
-const styleScss = 'src/scss/strcode.scss';
-const outputCss = 'strcode';
-const fontTtf = 'src/fonts/*.ttf';
-const outputFonts = 'strcode/fonts/';
-const fontWoff = 'src/fonts/*.woff2';
+const styleScss = './src/scss/strcode.scss';
+const outputCss = '.';
+const fontTtf = './src/fonts/*.ttf';
+const outputFonts = './strcode';
+const fontWoff = './src/fonts/*.woff2';
 
 const compileScss = () => 
   src(styleScss)
