@@ -1,19 +1,18 @@
-const {src, dest, watch} = require('gulp');
+const {src, dest} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const ttf2woff2 = require('gulp-ttf2woff2');
 
-const styleScss = './src/scss/strcode.scss';
-const outputCss = '.';
-const fontTtf = './src/fonts/*.ttf';
-const outputFonts = './strcode';
-const fontWoff = './src/fonts/*.woff2';
+const inputPath = './src'
+const styleScss = `${inputPath}/scss/strcode.scss`;
+const outputPath = './dist';
+const fontTtf = `${inputPath}/fonts/*.ttf`;
+const outputFonts = `${outputPath}/strcode`;
+const fontWoff = `${inputPath}/fonts/*.woff2`;
 
 const compileScss = () => 
   src(styleScss)
     .pipe(sass())
-    .pipe(dest(outputCss))
-
-const watchScssFiles = () => watch(styleScss, compileScss());
+    .pipe(dest(outputPath))
 
 const convertFonts = () =>
   src(fontTtf)
@@ -26,4 +25,4 @@ const copyFonts = () =>
 
 exports.copyFonts = copyFonts;
 exports.convertFonts = convertFonts;
-exports.default = watchScssFiles;
+exports.default = compileScss;
