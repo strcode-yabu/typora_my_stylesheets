@@ -1,10 +1,10 @@
-@use './color_light';
+@use './light/color';
 @use './fonts';
-@use './basic';
-@use './sidebar';
-@use './metablock';
-@use './scrollbar';
-@use './codeblock';
-@use './unibody';
+@use './light/basic';
+@use './light/sidebar';
+@use './light/metablock';
+@use './light/scrollbar';
+@use './light/codeblock';
+@use './light/unibody';
 @use './general';
 
