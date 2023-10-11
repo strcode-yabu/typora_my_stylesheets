@@ -1,0 +1,56 @@
+#write {
+  h2 {
+    color: var(--color-text);
+  }
+  blockquote {
+    background: var(--color-quote-block-bg);
+  }
+  code {
+    color: var(--color-code);
+  }
+  h2 {
+    code {
+      color: var(--color-text);
+      background-color: var(--color-header-span);
+    }
+  }
+  table.md-table {
+    tr {
+      th,
+      td {
+        border: 1px solid var(--color-header-span);
+        &:hover {
+          background-color: var(--color-side-bar-bg);
+        }
+      }
+      th {
+        color: var(--color-text);
+      }
+      td {
+        background-color: var(--color-bg);
+      }
+    }
+  }
+  hr {
+    border-top: 1px solid var(--color-header-span);
+  }
+}
+content {
+  background: var(--color-bg);
+}
+mark {
+  color: var(--color-bg);
+  background: var(--color-highlight);
+  border-radius: 1px;
+}
+.task-list-item {
+  input {
+    &:checked::before,
+    &::before {
+      background-color: var(--color-bg);
+    }
+  }
+}
+.md-comment {
+  color: var(--color-header-span);
+}

@@ -1,0 +1,17 @@
+.typora-sourceview-on {
+  #toggle-sourceview-btn {
+    background: #41444b;
+    margin-left: -2px;
+    padding-left: 10px;
+  }
+}
+.nav-group-item.active {
+  color: var(--color-bg);
+  background: var(--color-block-bg) !important;
+}
+.md-def-name::before {
+  color: var(--color-md-char);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-block-bg);
+}

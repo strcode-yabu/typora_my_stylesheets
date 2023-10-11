@@ -1,0 +1,22 @@
+:root {
+  --color-text: #e4e4e4e3;
+  --color-primary: #8393ad;
+  --color-bg: #1e222a;
+  --color-side-bar-bg: #181c24;
+  --color-code: #abbad4;
+  --color-marker: #7d8a9f;
+  --color-highlight: #ffffb5c2;
+  --color-header-span: #47556d;
+  --color-block-bg: #080e1d;
+  --color-quote-block-bg: #2a2f3b;
+  --color-img-shadow: var(--color-block-bg);
+
+  --color-md-char: #7d8a9f7d;
+  --color-heading-char: var(--color-text);
+  --color-select-text-bg: #dae3ea2e;
+  --color-search-select-bg: #346895;
+  --color-item-hover-bg: var(--color-block-bg);
+  --window-border: 1px solid var(--color-bg);
+  --color-control-text-hover: var(--color-text);
+  --rawblock-edit-panel-bd: var(--color-block-bg);
+}

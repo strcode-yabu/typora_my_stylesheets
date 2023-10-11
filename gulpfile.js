@@ -3,7 +3,7 @@ const sass = require('gulp-sass')(require('sass'));
 const ttf2woff2 = require('gulp-ttf2woff2');
 
 const inputPath = './src'
-const styleScss = `${inputPath}/scss/strcode.scss`;
+const styleScss = `${inputPath}/scss/*.scss`;
 const outputPath = './dist';
 const fontTtf = `${inputPath}/fonts/*.ttf`;
 const outputFonts = `${outputPath}/strcode`;

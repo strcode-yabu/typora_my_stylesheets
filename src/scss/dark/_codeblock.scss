@@ -1,0 +1,102 @@
+.cm-s-inner {
+  .CodeMirror {
+    color: var(--color-code);
+    background-color: var(--color-block-bg);
+  }
+  .cm-keyword {
+    color: #66cfe9 !important;
+  }
+  .cm-operator {
+    color: #e7fc4a !important;
+  }
+  .cm-variable,
+  .cm-builtin,
+  .cm-header,
+  .cm-tag,
+  .cm-property,
+  .cm-quote {
+    color: #c2eaff !important;
+  }
+  .cm-variable-2 {
+    color: #8eb0b0 !important;
+  }
+  .cm-variable-3,
+  .cm-type,
+  .cm-atom {
+    color: #debbfb !important;
+  }
+  .cm-number {
+    color: #b0f6ae !important;
+  }
+  .cm-def,
+  .cm-qualifier {
+    color: #f9fbfd !important;
+  }
+  .cm-string {
+    color: #acd9a4 !important;
+  }
+  .cm-string-2 {
+    color: #89acc5 !important;
+  }
+  .cm-comment {
+    color: rgb(168, 168, 168) !important;
+  }
+  .cm-meta {
+    color: #a0b4f6 !important;
+  }
+  .cm-attribute {
+    color: #baacc3 !important;
+  }
+  .cm-error {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: #ffcff140 !important;
+  }
+  .CodeMirror-matchingbracket {
+    color: white !important;
+    text-decoration: underline;
+  }
+  div.CodeMirror-selected {
+    background: rgba(167, 178, 189, 0.2) !important;
+  }
+  &.CodeMirror-focused div.CodeMirror-selected {
+    background: rgba(167, 178, 189, 0.2) !important;
+  }
+  .CodeMirror-selected,
+  .CodeMirror-selectedtext {
+    background-color: rgba(167, 178, 189, 0.0) !important;
+  }
+  .CodeMirror-line {
+    &::-moz-selection,
+    &::selection,
+    &>span::-moz-selection,
+    &>span::selection
+    &>span>span::-moz-selection,
+    &>span>span::selection {
+      background-color: rgba(167, 178, 189, 0.2);
+    }
+  }
+  &.cm-link {
+    color: #42a5f5;
+  }
+}
+.CodeMirror-gutters {
+  border-right: 1px solid #a2b6d452;
+}
+.CodeMirror-linenumber {
+  color: var(--color-primary);
+}
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid var(--color-primary);
+  z-index: 3;
+}
+cm-s-inner {
+  .cm-link {
+    color: #42a5f5;
+  }
+}
+.cm-s-typora-default {
+  .cm-link {
+    color: #42a5f5;
+    text-decoration: underline;
+  }
+}
