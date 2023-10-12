@@ -6,12 +6,12 @@
   }
 }
 .nav-group-item.active {
-  color: var(--color-bg);
-  background: var(--color-block-bg) !important;
+  color: var(--bg-color);
+  background: var(--block-bg-color) !important;
 }
 .md-def-name::before {
-  color: var(--color-md-char);
+  color: var(--md-char-color);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-block-bg);
+  background: var(--block-bg-color);
 }

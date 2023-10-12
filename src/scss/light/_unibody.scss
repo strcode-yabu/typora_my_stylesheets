@@ -1,31 +1,31 @@
 .megamenu-menu-header {
-  color: var(--color-text);
+  color: var(--text-color);
   border: none;
   #megamenu-back-btn,
   .megamenu-menu-header-title-back,
   .megamenu-menu-header-title-menu {
-    color: var(--color-text);
+    color: var(--text-color);
   }
 }
 .megamenu-menu {
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  color: var(--text-color);
+  background-color: var(--bg-color);
   box-shadow: none !important;
 }
 
 header,
 #megamenu-content {
-  background-color: var(--color-bg);
+  background-color: var(--bg-color);
   background-image: none !important;
 }
 .md-search-hit {
-  background-color: var(--color-search-hit-bg);
+  background-color: var(--search-hit-bg-color);
 }
 #recent-file-panel {
   tbody {
     tr:nth-child(2n-1) {
-      color: var(--color-recent-file-panel-n);
-      background-color: var(--color-recent-file-panel-n-bg);
+      color: var(--recent-file-panel-n-color);
+      background-color: var(--recent-file-panel-n-bg-color);
     }
   }
 }

@@ -1,8 +1,8 @@
 #typora-sidebar {
   height: 100%;
-  color: var(--color-text);
+  color: var(--text-color);
   font-size: 0.92rem;
-  background-color: var(--color-bg);
+  background-color: var(--bg-color);
 }
 
 #sidebar-content.sidebar-content {
@@ -23,29 +23,29 @@
 .ty-show-search #info-panel-tab-search {
   .info-panel-tab-border {
     height: 1px;
-    background-color: var(--color-primary);
+    background-color: var(--primary-color);
     border-radius: 10px;
   }
 }
 .file-node-content {
-  color: var(--color-primary);
+  color: var(--primary-color);
   line-height: 1.6rem;
 }
 span {
 &.file-node-title-name-part {
-    color: var(--color-text);
+    color: var(--text-color);
   }
   
   &.file-node-title-ext-part {
-    color: var(--color-text);
+    color: var(--text-color);
   }
 }
 .file-node-icon {
   padding-right: 0.2rem;
 }
 .file-tree-node.active>.file-node-background {
-  border-color: var(--color-primary);
-  border-left: 4px solid var(--color-primary);
+  border-color: var(--primary-color);
+  border-left: 4px solid var(--primary-color);
 }
 #outline-content {
   height: 100%;
@@ -56,7 +56,7 @@ span {
 #outline-content,
 .pin-outline {
   .outline-active {
-    color: var(--color-primary);
+    color: var(--primary-color);
   }
 }
 .outline-item {

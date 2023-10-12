@@ -1,56 +1,56 @@
 #write {
   h2 {
-    color: var(--color-text);
+    color: var(--text-color);
   }
   blockquote {
-    background: var(--color-quote-block-bg);
+    background: var(--quote-block-bg-color);
   }
   code {
-    color: var(--color-code);
+    color: var(--code-color);
   }
   h2 {
     code {
-      color: var(--color-text);
-      background-color: var(--color-header-span);
+      color: var(--text-color);
+      background-color: var(--header-span-color);
     }
   }
   table.md-table {
     tr {
       th,
       td {
-        border: 1px solid var(--color-header-span);
+        border: 1px solid var(--header-span-color);
         &:hover {
-          background-color: var(--color-side-bar-bg);
+          background-color: var(--side-bar-bg-color);
         }
       }
       th {
-        color: var(--color-text);
+        color: var(--text-color);
       }
       td {
-        background-color: var(--color-bg);
+        background-color: var(--bg-color);
       }
     }
   }
   hr {
-    border-top: 1px solid var(--color-header-span);
+    border-top: 1px solid var(--header-span-color);
   }
 }
 content {
-  background: var(--color-bg);
+  background: var(--bg-color);
 }
 mark {
-  color: var(--color-bg);
-  background: var(--color-highlight);
+  color: var(--bg-color);
+  background: var(--highlight-color);
   border-radius: 1px;
 }
 .task-list-item {
   input {
     &:checked::before,
     &::before {
-      background-color: var(--color-bg);
+      background-color: var(--bg-color);
     }
   }
 }
 .md-comment {
-  color: var(--color-header-span);
+  color: var(--header-span-color);
 }

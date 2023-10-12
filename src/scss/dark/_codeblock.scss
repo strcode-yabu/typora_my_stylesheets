@@ -1,7 +1,7 @@
 .cm-s-inner {
   .CodeMirror {
-    color: var(--color-code);
-    background-color: var(--color-block-bg);
+    color: var(--code-color);
+    background-color: var(--block-bg-color);
   }
   .cm-keyword {
     color: #66cfe9 !important;
@@ -83,10 +83,10 @@
   border-right: 1px solid #a2b6d452;
 }
 .CodeMirror-linenumber {
-  color: var(--color-primary);
+  color: var(--primary-color);
 }
 .CodeMirror div.CodeMirror-cursor {
-  border-left: 1px solid var(--color-primary);
+  border-left: 1px solid var(--primary-color);
   z-index: 3;
 }
 cm-s-inner {

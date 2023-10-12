@@ -1,22 +1,21 @@
 :root {
-  --color-text: #e4e4e4e3;
-  --color-primary: #8393ad;
-  --color-bg: #1e222a;
-  --color-side-bar-bg: #181c24;
-  --color-code: #abbad4;
-  --color-marker: #7d8a9f;
-  --color-highlight: #ffffb5c2;
-  --color-header-span: #47556d;
-  --color-block-bg: #080e1d;
-  --color-quote-block-bg: #2a2f3b;
-  --color-img-shadow: var(--color-block-bg);
-
-  --color-md-char: #7d8a9f7d;
-  --color-heading-char: var(--color-text);
-  --color-select-text-bg: #dae3ea2e;
-  --color-search-select-bg: #346895;
-  --color-item-hover-bg: var(--color-block-bg);
-  --window-border: 1px solid var(--color-bg);
-  --color-control-text-hover: var(--color-text);
-  --rawblock-edit-panel-bd: var(--color-block-bg);
+  --text-color: #e4e4e4e3;
+  --primary-color: #8393ad;
+  --bg-color: #1e222a;
+  --side-bar-bg-color: #181c24;
+  --code-color: #abbad4;
+  --marker-color: #7d8a9f;
+  --highlight-color: #ffffb5c2;
+  --header-span-color: #47556d;
+  --block-bg-color: #080e1d;
+  --quote-block-bg-color: #2a2f3b;
+  --img-shadow-color: var(--block-bg-color);
+  --md-char-color: #7d8a9f7d;
+  --heading-char-color: var(--text-color);
+  --select-text-bg-color: #dae3ea2e;
+  --search-select-bg-color: #346895;
+  --item-hover-bg-color: var(--block-bg-color);
+  --window-border: 1px solid var(--bg-color);
+  --control-text-hover-color: var(--text-color);
+  --rawblock-edit-panel-bd: var(--block-bg-color);
 }
