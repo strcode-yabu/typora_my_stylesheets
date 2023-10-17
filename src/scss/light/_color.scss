@@ -1,20 +1,20 @@
 @use '../functions' as func;
 
 :root {
-  --text-color: #40464f;
-  --primary-color: #4870ac;
-  --bg-color: #ffffff;
+  --text-color: #333;
+  --primary-color: #396;
+  --bg-color: #fff;
   --side-bar-bg-color: var(--bg-color);
-  --marker-color: #a2b6d4;
-  --highlight-color: #ffffb5c2;
+  --marker-color: #6ea;
+  --highlight-color: #6ea6;
   --header-span-color: var(--primary-color);
-  --block-bg-color: #f6f8fa;
-  --img-shadow-color: #d2dff4;
+  --block-bg-color: #aec3;
+  --img-shadow-color: #999;
   --search-hit-bg-color: var(--select-text-bg-color);
-  --search-select-bg-color: #5bb3ff;
-  --control-text-hover-color: #a2b6d4;
+  --search-select-bg-color: #aec9;
+  --control-text-hover-color: #aec;
   --rawblock-edit-panel-bd: var(--block-bg-color);
-  --item-hover-bg-color: rgb(246 248 250);
+  --item-hover-bg-color: #cec;
   --active-file-bg-color: var(--block-bg-color);
 
   @include func.print() {
